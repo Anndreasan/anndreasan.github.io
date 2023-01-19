@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.hero{
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   background: #0f0e0e;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*nav */
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #ffa500;
+}
+
+/*detel */
+
+.detel{
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+.detel h1{
+    font-size: 40px;
+    color: #fdfbfb;
+    margin-bottom: 20px;
+}
+
+span{
+    color: #ffa500;
+}
+
+.detel p{
+    color: rgb(255, 255, 255);
+    line-height: 25px;
+}
+
+.detel a{
+    background: #030303;
+    padding: 10px 18px; 
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.detel a:hover{
+    color: #171515;
+    background-color: #ffa600;
+}
+
+/*Images */
+
+.image{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 60px;
+    box-sizing: border-box;
+}
+
+.image img{
+    height: 90%;
+    position: absolute;
+    left: 50%;
+    bottom: 1;
+}
+
+.image2{
+    width: 80%;
+    height: 70%;
+    position: absolute ;
+    bottom: 0;
+    right: 100px;
+}
+
+.image2 img{
+    height: 70%;
+    position: absolute;
+    left: 60%;
+    bottom: 1;
+}
+
+/*Projekt */
+
+.projekt-kort{
+    width: 280px;
+    height: 400px;
+    box-shadow: 5px 5px 20px rgb(189, 185, 185);
+    margin: 10px;
+}
+
+.prodject-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.projekt-bild{
+    margin-top: 0px;
+    width: 280px;
+    height: 200px;
+    border-radius: 0px;
+}
+
+/*subsection */
+
+.sub-section-alternative{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    background-color: #fcfdff;
+}
+
+.subtext{
+    font-size: 15px;
+    font-weight: 300px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.subsection{
+    background-color: #8D8DE1;
+    line-height: 25px;
+    height: 600px;
+    box-sizing: border-box;
+}
+
+.subsection p {
+    margin-left: 8%;
+}
+
+.subsection h2{
+    margin-left: 8%;
+
+}
+
+.subsection h3{
+    margin-left: 8%;
+    
+}
+
+.sub-section p {
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+.section-alternative{
+    text-align: center;
+    color: #000000;
+    height: 400px;
+}
+
+/*button */
+
+.btn {
+    background-color: rgb(252, 251, 251);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    padding: 8px 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: #fcfdff;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.headshot {
+    height: 40vh;
+    position: relative;
+    top: -350px;
+    left: 75%;
+    border-radius: 150px;
+}
+
+/*footer */
+
+.footer{
+    height: 70px;
+    width: 100%;
+    background-color: #bdb9b9;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+.footer > .footer-heder {
+    display: inline;
+}
+
+.footer > .footer-header > .footer-title {
+    display: inline-block;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    flex-wrap: wrap;
+}
+
+.footer > .footer-header > .footer-title > .footer-links {
+    color: #f5f1f1;
+}
+
+/*scroll arrow */
+
+:root { scroll-behavior: smooth; }
+
+.stt {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: rgb(255, 255, 255) url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3Cpath fill='currentColor' d='M352 352c-8.188 0-16.38-3.125-22.62-9.375L192 205.3l-137.4 137.4c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25C368.4 348.9 360.2 352 352 352z'%3E%3C/path%3E%3C/svg%3E") center no-repeat;
+    box-shadow: 0 0.25rem 0.5rem 0 gray;
+    opacity: 0.7;
+  }
+  .stt:hover {
+    opacity: 0.8;
+  }
+  .stt:focus {
+    opacity: 0.9;
+  }
+  .stt:active {
+    opacity: 1;
+}
+
+  @media screen and (max-width: 700px) {
+    .detel, .body, .image, .image2 {   
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 700px){
+    .detel, h1 {
+        font-size: 20px;
+        color: #fdfbfb;
+        margin-bottom: 20px; 
+    }
+}
